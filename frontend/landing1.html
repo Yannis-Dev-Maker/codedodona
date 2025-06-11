@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form - Zoltar</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 0; padding: 20px; color: #2c3e50; }
+    h1, h2 { text-align: center; }
+    .container { max-width: 1000px; margin: auto; }
+    form { background: #fff; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 8px; }
+    input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #27ae60; color: #fff; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #219150; }
+    .message { text-align: center; margin-top: 20px; font-weight: bold; color: #27ae60; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Welcome to Zoltar AI</h1>
+  <h2>Contact Form</h2>
+
+  <form id="contactForm">
+    <input type="text" name="Last Name" placeholder="Last Name" required>
+    <input type="text" name="First Name" placeholder="First Name" required>
+    <input type="email" name="Email" placeholder="Email" required>
+    <input type="text" name="Phone" placeholder="Telephone" required>
+    <input type="text" name="Product" placeholder="Subject" required>
+    <button type="submit">Send</button>
+    <div class="message" id="formMessage"></div>
+  </form>
+</div>
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const formData = new FormData(this);
+    const data = {};
+    formData.forEach((value, key) => { data[key] = value });
+
+    fetch('email-bot.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    })
+    .then(async response => {
+      if (response.ok) {
+        document.getElementById('formMessage').innerText = 'Thank you for Contacting Zoltar! You will be redirected to Home Page...';
+        setTimeout(() => {
+          window.location.href = "https://www.zoltar.click";
+        }, 2000);  // 2 seconds delay
+      } else {
+        const errorData = await response.json();
+        console.error('Error:', errorData);
+        document.getElementById('formMessage').innerText = 'Σφάλμα: ' + (errorData.error || 'Error.');
+      }
+    })
+    .catch(err => {
+      console.error('Fetch Error:', err);
+      document.getElementById('formMessage').innerText = 'Connection Error.';
+    });
+  });
+</script>
+
+</body>
+</html>
