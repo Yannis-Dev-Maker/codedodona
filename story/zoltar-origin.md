@@ -25,7 +25,7 @@ But beware: he speaks only to those who dare summon him through the portal.
 ## 👁️ How to Consult the Oracle
 
 1. Visit [https://zoltar.click](https://zoltar.click)
-2. Connect with the Telegram bot
+2. Connect with the bot
 3. Ask your question or request analysis
 
 Zoltar responds instantly, drawing upon AI and decentralized data to give you a glimpse of what lies ahead.
