@@ -11,7 +11,7 @@ This project is a blend of **AI**, **Bot technology**, and **Solana-powered data
 Explore Zoltar's world: [https://zoltar.click](https://zoltar.click)
 
 ## 🤖 AI Bot
-ETA: Q3 2025
+ETA: Q4 2025
 
 ---
 
