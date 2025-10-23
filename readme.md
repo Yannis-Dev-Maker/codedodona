@@ -1,4 +1,4 @@
-﻿# 🔮 ZOLTAR Portal & Telegram AI Bot
+﻿# 🔮 ZOLTAR Portal & AI Bot
 
 Welcome to the official repository for **ZOLTAR** — the imprisoned oracle.
 This project is a blend of **AI**, **Bot technology**, and **Solana-powered data tracking**, developed by [Process Control Software](https://www.pc-soft.gr).
