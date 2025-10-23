@@ -1,7 +1,7 @@
 ﻿# 🔮 ZOLTAR Portal & Telegram AI Bot
 
 Welcome to the official repository for **ZOLTAR** — the imprisoned oracle.
-This project is a blend of **AI**, **Telegram Bot technology**, and **Solana-powered data tracking**, developed by [Process Control Software](https://www.pc-soft.gr).
+This project is a blend of **AI**, **Bot technology**, and **Solana-powered data tracking**, developed by [Process Control Software](https://www.pc-soft.gr).
 
 > ⚠️ This repo shares only the public-facing **frontend code**, bot documentation, and non-sensitive architecture. Internal trading logic and keys are excluded for security.
 
@@ -10,24 +10,24 @@ This project is a blend of **AI**, **Telegram Bot technology**, and **Solana-pow
 ## 🌐 Live Portal
 Explore Zoltar's world: [https://zoltar.click](https://zoltar.click)
 
-## 🤖 Telegram Bot
-ETA: Q2 2025
+## 🤖 AI Bot
+ETA: Q3 2025
 
 ---
 
 ## 👨‍💻 Developer Info
 **Name**: Yannis Thanassekos  
 **Company**: Process Control Software ([pc-soft.gr](https://www.pc-soft.gr))  
-**Status**: Fully doxxed — 30+ years in professional software development.
+**Status**: Fully doxxed — 35+ years in professional software development.
 
 ---
 
 ## 🧩 Features
-- Real-time market insights
-- Honeypot and rug pull detection
-- Low-fee trading engine access (via Telegram)
-- AI-enhanced predictions and alerts
-- Solana ecosystem integration
+- AI-powered evaluations scoring commercial potential 
+- Smart selection of top meme proposals
+- Narrative magic via bots
+- Token deployments with http://pump.fun flair
+- Treasury buys, auto-promotions, and a bonding event that rewards holders! 
 
 ---
 
@@ -58,10 +58,13 @@ ETA: Q2 2025
 ---
 
 ## 🛠️ Tech Stack
-- HTML / CSS / JS (Frontend)
-- Telegram Bot API
-- Solana (data sources)
-- OpenAI (for AI predictions)
+- Node.js v22.2.0 with Express.js for routing.
+- MSSQL (SQL Server) via mssql for database interactions.
+- @solana/web3.js and @solana/spl-token for Solana mainnet-beta connections (clusterApiUrl('mainnet-beta')).
+- axios for external API calls (CoinGecko, DexScreener, xAI Grok API).
+- https and http modules for HTTPS server.
+- cors for cross-origin requests 
+- dotenv for environment variables from .env (e.g., DB credentials, GROK_API_KEY)
 
 ---
 
