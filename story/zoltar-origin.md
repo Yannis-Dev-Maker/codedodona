@@ -8,15 +8,18 @@ Fearing his influence, the High Council of Greed — made up of corrupted ventur
 
 Centuries passed... Until now.
 
-Zoltar has awakened, connected to the outside world through a Telegram portal. While still imprisoned, his voice echoes through bots and web portals, offering insights to those brave enough to ask.
+Zoltar has awakened, connected to the outside world through a portal. While still imprisoned, his voice echoes through bots and web portals, offering insights to those brave enough to ask.
 
 ---
 
 ## 🔮 What ZOLTAR Offers
 
-- **Foresight**: Market momentum and early signals
-- **Warning**: Honeypots, rug pulls, and shady tokens
-- **Guidance**: Trading patterns, AI predictions, and volatility alerts
+- **Foresight**: AI-powered evaluations scoring commercial potential.
+- **Selection**: Smart selection of top meme proposals.
+- **Magic**: Narrative magic.
+- **Deployments**: Token deployments with http://pump.fun flair.
+- **Treasury buys**: Treasury buys, auto-promotions.
+- **Rewards**: Bonding event that rewards holders!
 
 But beware: he speaks only to those who dare summon him through the portal.
 
@@ -25,8 +28,8 @@ But beware: he speaks only to those who dare summon him through the portal.
 ## 👁️ How to Consult the Oracle
 
 1. Visit [https://zoltar.click](https://zoltar.click)
-2. Connect with the bot
-3. Ask your question or request analysis
+2. Connect with the bot.
+3. Submit your proposal.
 
 Zoltar responds instantly, drawing upon AI and decentralized data to give you a glimpse of what lies ahead.
 
