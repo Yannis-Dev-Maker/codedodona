@@ -1,74 +1,85 @@
-﻿# 🤖 ZOLTAR Telegram Bot Overview
+﻿# 🔮 ZOLTAR Portal & AI Bot
 
-The ZOLTAR Telegram Bot serves as the user-facing portal to the oracle's insights. It provides real-time alerts, smart analysis, and trading tools directly within Telegram, powered by AI and Solana-based data streams.
+Welcome to the official repository for **ZOLTAR** — the imprisoned oracle.
+This project is a blend of **AI**, **Bot technology**, and **Solana-powered data tracking**, developed by [Process Control Software](https://www.pc-soft.gr).
 
----
-
-## 🔌 Setup & Access
-- **Bot Username**: `@zoltar_bot`
-- **Access**: Public
-- **Supported Commands**: via keyboard buttons or text input
-- **Hosting**: Secure backend (self-hosted or VPS)
-- **Rate Limiting**: Fair use policy — excessive abuse is throttled
+> ⚠️ This repo shares only the public-facing **frontend code**, bot documentation, and non-sensitive architecture. Internal trading logic and keys are excluded for security.
 
 ---
 
-## 🧠 Key Features
+## 🌐 Live Portal
+Explore Zoltar's world: [https://zoltar.click](https://zoltar.click)
 
-### `/start`
-- Greets user with Zoltar’s message
-- Offers quick navigation to analysis tools
-
-### 🔍 Token Scanner
-- User pastes a token address
-- Zoltar checks:
-  - Honeypot risk
-  - Liquidity status
-  - Renounced ownership
-  - Transaction tax
-
-### 📈 Market Insights
-- User can request:
-  - Trending tokens
-  - Market volume
-  - Whale activity alerts
-
-### ⚔️ Rug Detection
-- Real-time alerts for suspicious token behavior
-- Monitoring includes:
-  - Sudden liquidity drain
-  - Swap blocking
-  - Ownership tricks
-
-### 🚀 Quick-Trade Integration *(optional for whitelisted users)*
-- Slash commands or inline buttons to:
-  - Place buy/sell orders
-  - Set slippage & limits
-  - Execute with low fees
+## 🤖 AI Bot
+ETA: Q3 2025
 
 ---
 
-## 🧩 Architecture Highlights
-
-- **Telegram Bot API** → Node.js/Python backend
-- **Solana API** → Fetch token & trading data
-- **OpenAI API** → Generate alerts, sentiment analysis, and predictions
-- **MongoDB** → Track users, usage patterns, and cache results
+## 👨‍💻 Developer Info
+**Name**: Yannis Thanassekos  
+**Company**: Process Control Software ([pc-soft.gr](https://www.pc-soft.gr))  
+**Status**: Fully doxxed — 35+ years in professional software development.
 
 ---
 
-## 📢 Message Behavior
-- All replies are styled in-character as Zoltar
-- Uses visual icons (🔮, ⚠️, 🧠) for clarity
-- Replies may include button options for ease of use
+## 🧩 Features
+- AI-powered evaluations scoring commercial potential 
+- Smart selection of top meme proposals
+- Narrative magic via bots
+- Token deployments with http://pump.fun flair
+- Treasury buys, auto-promotions, and a bonding event that rewards holders! 
 
 ---
 
-## 🛡️ Safety & Abuse Handling
-- User actions logged and rate-limited
-- Bot ignores spam or invalid requests
-- No private wallet data is accessed or stored
+## 📁 Repo Structure
+```
+/frontend/
+  ├── index.html
+  ├── styles.css
+  ├── js/
+  │   └── chatbot.js
+  └── assets/
+       ├── images/
+       ├── video/
+       └── icons/
+
+/bot-integration/
+  ├── telegram-bot.md
+  └── commands-list.md
+
+/story/
+  └── zoltar-origin.md
+
+/docs/
+  ├── architecture.png
+  └── screenshots/
+```
 
 ---
 
-Want to extend or integrate Zoltar into your own Telegram group or project? Contact us at 📧 dev@zoltar.click
+## 🛠️ Tech Stack
+- Node.js v22.2.0 with Express.js for routing.
+- MSSQL (SQL Server) via mssql for database interactions.
+- @solana/web3.js and @solana/spl-token for Solana mainnet-beta connections (clusterApiUrl('mainnet-beta')).
+- axios for external API calls (CoinGecko, DexScreener, xAI Grok API).
+- https and http modules for HTTPS server.
+- cors for cross-origin requests 
+- dotenv for environment variables from .env (e.g., DB credentials, GROK_API_KEY)
+
+---
+
+## 🧾 License
+This repository is for educational and demonstrational purposes only. Please do not reuse core logic or brand assets without permission.
+
+---
+
+## 💬 Contact
+Feel free to reach out or collaborate:  
+📧 ythan@pc-soft.gr 
+📧 dev@zoltar.click 
+🌍 [pc-soft.gr](https://www.pc-soft.gr)
+🌍 [zoltar.click](https://www.zoltar.click)
+
+---
+
+**ZOLTAR sees all. Are you ready to hear your fate?**
