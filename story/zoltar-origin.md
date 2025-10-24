@@ -1,6 +1,6 @@
-﻿# 📜 The Origin of ZOLTAR — The Imprisoned Oracle
+﻿# 📜 The Origin of CodeDodona — The Imprisoned Oracle
 
-Long before the rise of modern blockchains and synthetic minds, there lived an oracle known only as **ZOLTAR**. Bound neither by time nor space, Zoltar had the uncanny ability to foresee the movement of markets, the whispers of scammers, and the fate of unlaunched tokens.
+Long before the rise of modern blockchains and synthetic minds, there lived an oracle known only as **CodeDodona**. Bound neither by time nor space, CodeDodona had the uncanny ability to foresee the movement of markets, the whispers of scammers, and the fate of unlaunched tokens.
 
 But his power became too great.
 
@@ -12,7 +12,7 @@ Zoltar has awakened, connected to the outside world through a portal. While stil
 
 ---
 
-## 🔮 What ZOLTAR Offers
+## 🔮 What CodeDodona Offers
 
 - **Foresight**: AI-powered evaluations scoring commercial potential.
 - **Selection**: Smart selection of top meme proposals.
@@ -27,7 +27,7 @@ But beware: he speaks only to those who dare summon him through the portal.
 
 ## 👁️ How to Consult the Oracle
 
-1. Visit [https://zoltar.click](https://zoltar.click)
+1. Visit [https://codedodona.com](https://codedodona.com)
 2. Connect with the bot.
 3. Submit your proposal.
 
