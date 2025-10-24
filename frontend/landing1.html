@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form - Zoltar</title>
+  <title>Contact Form - CodeDodona</title>
   <style>
     body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 0; padding: 20px; color: #2c3e50; }
     h1, h2 { text-align: center; }
@@ -18,7 +18,7 @@
 <body>
 
 <div class="container">
-  <h1>Welcome to Zoltar AI</h1>
+  <h1>Welcome to CodeDodona AI</h1>
   <h2>Contact Form</h2>
 
   <form id="contactForm">
@@ -46,9 +46,9 @@
     })
     .then(async response => {
       if (response.ok) {
-        document.getElementById('formMessage').innerText = 'Thank you for Contacting Zoltar! You will be redirected to Home Page...';
+        document.getElementById('formMessage').innerText = 'Thank you for Contacting CodeDodona! You will be redirected to Home Page...';
         setTimeout(() => {
-          window.location.href = "https://www.zoltar.click";
+          window.location.href = "https://www.codedodona.com";
         }, 2000);  // 2 seconds delay
       } else {
         const errorData = await response.json();
