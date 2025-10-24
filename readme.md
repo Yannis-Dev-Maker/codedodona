@@ -1,6 +1,6 @@
-﻿# 🔮 ZOLTAR Portal & AI Bot
+﻿# 🔮 CodeDodona Portal & AI Bot (previously named Zoltar)
 
-Welcome to the official repository for **ZOLTAR** — the imprisoned oracle.
+Welcome to the official repository for **CodeDodona** — the imprisoned oracle.
 This project is a blend of **AI**, **Bot technology**, and **Solana-powered data tracking**, developed by [Process Control Software](https://www.pc-soft.gr).
 
 > ⚠️ This repo shares only the public-facing **frontend code**, bot documentation, and non-sensitive architecture. Internal trading logic and keys are excluded for security.
@@ -8,7 +8,7 @@ This project is a blend of **AI**, **Bot technology**, and **Solana-powered data
 ---
 
 ## 🌐 Live Portal
-Explore Zoltar's world: [https://zoltar.click](https://zoltar.click)
+Explore CodeDodona's world: [https://codedodona.com](https://codedodona.com)
 
 ## 🤖 AI Bot
 ETA: Q4 2025
@@ -76,10 +76,10 @@ This repository is for educational and demonstrational purposes only. Please do 
 ## 💬 Contact
 Feel free to reach out or collaborate:  
 📧 ythan@pc-soft.gr 
-📧 dev@zoltar.click 
+📧 dev@codedodona.com 
 🌍 [pc-soft.gr](https://www.pc-soft.gr)
-🌍 [zoltar.click](https://www.zoltar.click)
+🌍 [codedodona.com](https://www.codedodona.com)
 
 ---
 
-**ZOLTAR sees all. Are you ready to hear your fate?**
+**CodeDodona sees all. Are you ready to hear your fate?**
